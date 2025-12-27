@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu Główne</title>
+    <link rel="stylesheet" href="global.css">
+    <style>
+        .menu-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .game-btn {
+            padding: 20px 50px;
+            margin: 20px;
+            font-size: 24px;
+            background: #ff9800;
+            color: white;
+            border-radius: 10px;
+            text-decoration: none; /* Bo używamy <a> jako przycisku */
+            transition: transform 0.2s;
+        }
+        .game-btn:hover { transform: scale(1.1); background: #e68900; }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <h1>Wybierz grę</h1>
+        <a href="familiada/index.html" class="game-btn">FAMILIADA</a>
+        <a href="quiz/index.html" class="game-btn" style="background: grey; pointer-events: none;">QUIZ (Wkrótce)</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Familiada</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="data.js"></script>
+</head>
+<body>
+    <a href="../index.html" class="back-btn">← Wróć do menu</a>
+
+    <div id="question-box" class="question-header">Pytanie...</div>
+
+    <div class="scores" style="text-align: center; padding: 10px;">
+        SUMA RUNDY: <span id="round-score">0</span>
+    </div>
+
+    <div id="board" class="board-grid"></div>
+
+    <div style="text-align: center; margin-top: 20px;">
+        <button onclick="nextRound()" style="padding: 10px 20px;">Następne Pytanie</button>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+</html>

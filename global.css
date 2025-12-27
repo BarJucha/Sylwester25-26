@@ -1,0 +1,14 @@
+/* global.css */
+body {
+    background-color: #0d1b2a;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+}
