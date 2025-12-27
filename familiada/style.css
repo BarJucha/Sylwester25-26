@@ -1,32 +1,86 @@
-/* Importujemy style globalne, żeby nie pisać 2 razy tego samego */
 @import url('../global.css');
 
 .question-header {
     background: #1b263b;
     padding: 20px;
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: center;
     border-bottom: 2px solid #415a77;
+    min-height: 50px;
 }
 
+/* Panel Wyników i Drużyn */
+.game-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #000;
+}
+
+.team-box {
+    border: 3px solid #333;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.team-box:hover { background: #111; }
+
+/* Styl dla aktywnej drużyny (tej co zgaduje) */
+.team-box.active {
+    border-color: #ff9800; /* Pomarańczowy/Złoty */
+    background: #1a1a1a;
+    box-shadow: 0 0 15px rgba(255, 152, 0, 0.5);
+}
+
+.team-name { font-size: 1.2em; color: #aaa; margin-bottom: 5px; }
+.team-score { font-size: 2.5em; font-weight: bold; }
+
+.pot-box {
+    text-align: center;
+    font-size: 2em;
+    color: #ff9800;
+}
+.pot-label { font-size: 0.5em; color: #fff; }
+
+/* X-y (Błędy) pod wynikiem */
+.strikes-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 30px;
+}
+.strike-mark {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+/* Tablica */
 .board-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-    padding: 40px;
-    max-width: 1000px;
+    padding: 30px 100px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .answer-card {
     background: linear-gradient(to bottom, #005f73, #0a9396);
-    height: 80px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2em;
+    font-size: 1.8em;
     border: 2px solid white;
-    cursor: pointer;
+    position: relative;
 }
 
 .answer-card.revealed {
@@ -35,18 +89,52 @@
     padding: 0 20px;
 }
 
-/* Ukrywanie/Pokazywanie treści */
-.answer-text, .answer-points { display: none; }
-.revealed .answer-text, .revealed .answer-points { display: block; }
-.revealed .card-number { display: none; }
+.answer-card.revealed-no-points {
+    background: #555; 
+    color: #ccc;
+    justify-content: space-between;
+    padding: 0 20px;
+}
 
-/* Powrót do menu */
-.back-btn {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: transparent;
-    color: #777;
+.answer-text, .answer-points { display: none; }
+.revealed .answer-text, .revealed .answer-points,
+.revealed-no-points .answer-text, .revealed-no-points .answer-points { display: block; }
+
+.revealed .card-number, .revealed-no-points .card-number { display: none; }
+
+#wrong-overlay {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: #e63946;
+    font-size: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    z-index: 999;
+}
+.hidden { display: none !important; }
+
+.controls-hint {
+    text-align: center;
+    color: #555;
     font-size: 12px;
-    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
+.back-btn {
+    position: absolute; top: 10px; left: 10px; color: #777; text-decoration: none;
+}
+
+.round-winner {
+    background: #1b4332 !important;
+    border-color: #40916c !important;
+    animation: winnerPulse 1s infinite alternate;
+}
+
+@keyframes winnerPulse {
+    from { box-shadow: 0 0 10px #40916c; }
+    to { box-shadow: 0 0 30px #52b788; }
 }

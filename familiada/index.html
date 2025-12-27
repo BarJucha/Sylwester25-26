@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Familiada</title>
     <link rel="stylesheet" href="style.css">
-    
     <script src="data.js"></script>
 </head>
 <body>
@@ -12,15 +11,38 @@
 
     <div id="question-box" class="question-header">Pytanie...</div>
 
-    <div class="scores" style="text-align: center; padding: 10px;">
-        SUMA RUNDY: <span id="round-score">0</span>
+    <div class="game-status">
+        
+        <div id="team-a" class="team-box" onclick="selectTeam('A')">
+            <div class="team-name">DRUŻYNA A</div>
+            <div class="team-score" id="score-a">0</div>
+            <div class="strikes-container" id="strikes-a">
+                </div>
+        </div>
+
+        <div class="pot-box">
+            <div class="pot-label">SUMA:</div>
+            <div id="round-score">0</div>
+        </div>
+
+        <div id="team-b" class="team-box" onclick="selectTeam('B')">
+            <div class="team-name">DRUŻYNA B</div>
+            <div class="team-score" id="score-b">0</div>
+            <div class="strikes-container" id="strikes-b">
+                </div>
+        </div>
+
     </div>
 
     <div id="board" class="board-grid"></div>
 
-    <div style="text-align: center; margin-top: 20px;">
-        <button onclick="nextRound()" style="padding: 10px 20px;">Następne Pytanie</button>
+    <div class="controls-hint">
+        Sterowanie: [1-6] Odsłoń odpowiedź | [X] Błędna odpowiedź | Kliknij w drużynę, by wybrać aktywną.
+        <br>
+        <button onclick="nextRound()" id="next-btn" style="margin-top: 10px; padding: 5px 15px;">Następna Runda</button>
     </div>
+
+    <div id="wrong-overlay" class="hidden">X</div>
 
     <script src="logic.js"></script>
 </body>
