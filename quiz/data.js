@@ -3,7 +3,7 @@ const QUIZ_DATA = {
         {
             text: "Ile minut trwa mecz piłki nożnej (bez doliczonego czasu)?",
             type: "open", // Pytanie otwarte - brak wariantów
-            img: null
+            img: "Zrzut ekranu 2025-12-03 150653.png" // Wrzuć plik Zrzut_ekranu_2024-06-12_153659.png do folderu images!
         },
         {
             text: "W którym roku Polska była gospodarzem Euro?",
