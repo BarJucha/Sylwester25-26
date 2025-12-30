@@ -2,10 +2,10 @@ const FAMILIADA_DATA = [
     {
         question: "Więcej niż jedno zwierzę to...",
         answers: [
-            { text: "STADO", points: 35 },
-            { text: "WATAHA", points: 24 },
-            { text: "ŁAWICA", points: 15 },
-            { text: "TRZODA", points: 10 }
+            { text: "STADO", points: 0 },
+            { text: "WATAHA", points: 0 },
+            { text: "ŁAWICA", points: 0 },
+            { text: "TRZODA", points: 0 }
         ]
     },
     {
