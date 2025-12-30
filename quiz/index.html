@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="data.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div id="sidebar" class="sidebar">
+            <h2 style="text-align: center; border-bottom: 1px solid #555; padding-bottom: 10px;">WYNIKI</h2>
+            <div id="teams-container">
+                </div>
+        </div>
+
+        <div class="main-area">
+            
+            <div id="category-screen">
+                <h1>WYBIERZ KATEGORIĘ</h1>
+                <div class="categories-grid">
+                    <button class="cat-btn" onclick="selectCategory('sport')">SPORT</button>
+                    <button class="cat-btn" onclick="selectCategory('popkultura')">POPKULTURA</button>
+                    <button class="cat-btn" onclick="selectCategory('wiedza')">WIEDZA OGÓLNA</button>
+                    <button class="cat-btn" onclick="selectCategory('rozne')">RÓŻNE</button>
+                </div>
+            </div>
+
+            <div id="question-screen" class="hidden" style="width: 100%; display: flex; flex-direction: column; align-items: center;">
+                <h3 id="cat-label" style="color: #888; margin-top: 0;">KATEGORIA</h3>
+                
+                <div id="question-text" class="question-text">Treść pytania...</div>
+                
+                <img id="question-img" class="question-img hidden" src="" alt="Obrazek pytania">
+                
+                <div id="options-container" class="options-grid">
+                    </div>
+
+                <div style="margin-top: 20px; color: #aaa; font-style: italic;">
+                    Wpisz punkty dla drużyn w panelu po lewej, a następnie zakończ rundę.
+                </div>
+                <button class="end-round-btn" onclick="finishRound()">ZATWIERDŹ PUNKTY I WRÓĆ</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="setup-screen" class="full-screen-overlay">
+        <h1>KONFIGURACJA QUIZU</h1>
+        <div id="setup-inputs" style="margin: 20px;">
+            <input type="text" placeholder="Nazwa Drużyny 1" class="setup-input" style="padding: 10px; margin: 5px; font-size: 1.2em;">
+            <input type="text" placeholder="Nazwa Drużyny 2" class="setup-input" style="padding: 10px; margin: 5px; font-size: 1.2em;">
+        </div>
+        <div>
+            <button onclick="addTeamInput()" style="padding: 10px;">+ Dodaj Drużynę</button>
+            <button onclick="startGame()" style="padding: 10px 30px; background: #ff9800; font-weight: bold;">START</button>
+        </div>
+        <a href="../index.html" style="margin-top: 50px; color: #666;">Wróć do menu głównego</a>
+    </div>
+
+    <div id="end-screen" class="full-screen-overlay hidden">
+        <h1>KONIEC GRY!</h1>
+        <ul id="podium-list" class="podium-list"></ul>
+        <a href="../index.html" style="margin-top: 30px; color: white; border: 1px solid white; padding: 10px;">Wróć do Menu</a>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+</html>
