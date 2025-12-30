@@ -117,4 +117,3 @@ const FAMILIADA_DATA = [
     },
 
 ]
-             
