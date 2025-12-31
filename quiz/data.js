@@ -1356,6 +1356,7 @@ const QUIZ_DATA = {
     {text: "8850", isCorrect: false},
     {text: "8550", isCorrect: true},
     {text: "8700", isCorrect: false},
+    ]
 },
     ],
     "wiedza": [
