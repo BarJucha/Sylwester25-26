@@ -270,6 +270,31 @@ const QUIZ_DATA = {
         { text: "Jerzy Dudek", isCorrect: false }
     ]
 },
+        {
+    "text": "Kto był w składzie FC Barcelona w sezonie 2016/17?",
+    "type": "open",
+    "img": "barca1617"
+},
+{
+    "text": "Podaj skład reprezentacji Polski na Euro 2016.",
+    "type": "open",
+    "img": "pol2016"
+},
+{
+    "text": "Podaj skład reprezentacji Polski w 2018 roku.",
+    "type": "open",
+    "img": null
+},
+{
+    "text": "Podaj skład polskich siatkarzy na MŚ 2014.",
+    "type": "open",
+    "img": null
+},
+{
+    "text": "Podaj skład PSG i Inter Mediolan w finale Ligi Mistrzów.",
+    "type": "open",
+    "img": null
+},
 
 // ================= SPORT – HARD =================
 {
@@ -723,14 +748,9 @@ const QUIZ_DATA = {
         },
         {
             text: "Ułóż w kolejności który z tych artystów był najczęściej słuchany w Polsce na spotify: Taco, Oki, Mata, Francis, Sobel",
-            type: "closed",
+            type: "open",
             img: null, // Wrzuć plik actor.jpg do folderu images!
-            options: [
-                { text: "", isCorrect: false },
-                { text: "", isCorrect: false },
-                { text: "", isCorrect: false },
-                { text: "", isCorrect: false }
-            ]
+            
         },
         {
             text: "Która z tych gier miała największą pulę nagród w 2025 roku?",
@@ -1304,6 +1324,26 @@ const QUIZ_DATA = {
                 { text: "Iwagakure", isCorrect: false }
             ]
         },
+        {
+    "text": "Jaka to płyta?",
+    "type": "open",
+    "img": null
+},
+{
+    "text": "Jaka to płyta?.",
+    "type": "open",
+    "img": null
+},
+{
+    "text": "Ile to kosztuję",
+    "type": "closed",
+    "img": null
+    options:[
+    {text: "8300", isCorrect: false},
+    {text: "8850", isCorrect: false},
+    {text: "8550", isCorrect: true},
+    {text: "8700", isCorrect: false},
+},
     ],
     "wiedza": [
         {
@@ -1326,6 +1366,11 @@ const QUIZ_DATA = {
 {
     text: "Uporządkuj kontynenty od największego do najmniejszego.",
     type: "open",
+},
+            {
+    "text": "Wskaż klimatogram i opisz, jakie cechy klimatyczne przedstawia.",
+    "type": "open",
+    "img": null
 },
     {
         text: "Które z tych miast jest stolicą Szkocji?",
