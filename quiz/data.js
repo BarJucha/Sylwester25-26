@@ -273,27 +273,27 @@ const QUIZ_DATA = {
         {
     "text": "Kto był w składzie FC Barcelona w sezonie 2016/17?",
     "type": "open",
-    "img": "barca1617"
+    "img": "barca1617.PNG",
 },
 {
     "text": "Podaj skład reprezentacji Polski na Euro 2016.",
     "type": "open",
-    "img": "pol2016"
+    "img": "pol2016.PNG",
 },
 {
     "text": "Podaj skład reprezentacji Polski w 2018 roku.",
     "type": "open",
-    "img": null
+    "img": "pol2018.PNG",
 },
 {
     "text": "Podaj skład polskich siatkarzy na MŚ 2014.",
     "type": "open",
-    "img": null
+    "img": "siat2014.PNG",
 },
 {
     "text": "Podaj skład PSG i Inter Mediolan w finale Ligi Mistrzów.",
     "type": "open",
-    "img": null
+    "img": "psgint.PNG",
 },
 
 // ================= SPORT – HARD =================
@@ -1314,30 +1314,43 @@ const QUIZ_DATA = {
             
         },
         {
-            text: "Jak nazywa sie wioska z której pochodzi Naruto?",
-            type: "closed",
-            img: null, // Wrzuć plik actor.jpg do folderu images!
-            options: [
-                { text: "Sunagakure", isCorrect: false },
-                { text: "Kirigakure", isCorrect: false },
-                { text: "Konohagakure", isCorrect: true },
-                { text: "Iwagakure", isCorrect: false }
-            ]
+            text: "Co/kto to jest?",
+            type: "open",
+            img: "sło.png", // Wrzuć plik actor.jpg do folderu images!
+            
+        },
+        {
+            text: "Co/kto to jest?",
+            type: "open",
+            img: "stanczyk.png", // Wrzuć plik actor.jpg do folderu images!
+            
+        },
+        {
+            text: "Co/kto to jest?",
+            type: "open",
+            img: "pannydwor.png", // Wrzuć plik actor.jpg do folderu images!
+            
+        },
+        {
+            text: "Co/kto to jest?",
+            type: "open",
+            img: "ikar.png", // Wrzuć plik actor.jpg do folderu images!
+            
         },
         {
     "text": "Jaka to płyta?",
     "type": "open",
-    "img": null
+    "img": "jar.png",
 },
 {
     "text": "Jaka to płyta?.",
     "type": "open",
-    "img": null
+    "img": "bedoes,png",
 },
 {
     "text": "Ile to kosztuję",
     "type": "closed",
-    "img": null
+    "img": "lol.png",
     options:[
     {text: "8300", isCorrect: false},
     {text: "8850", isCorrect: false},
@@ -1368,9 +1381,9 @@ const QUIZ_DATA = {
     type: "open",
 },
             {
-    "text": "Wskaż klimatogram i opisz, jakie cechy klimatyczne przedstawia.",
+    "text": "Wskaż klimatogram Antananarywy i opisz, jakie cechy klimatyczne przedstawia.",
     "type": "open",
-    "img": null
+    "img": "klimat.png",
 },
     {
         text: "Które z tych miast jest stolicą Szkocji?",
