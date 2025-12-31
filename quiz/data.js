@@ -39,7 +39,16 @@ const QUIZ_DATA = {
         { text: "Brazylia", isCorrect: true }
     ]
 },
-        
+   {
+    text: "Ile trwa kwarta w NBA?",
+    type: "closed",
+    options: [
+        { text: "10 minut", isCorrect: false },
+        { text: "12 minut", isCorrect: true },
+        { text: "15 minut", isCorrect: false },
+        { text: "18 minut", isCorrect: false }
+    ]
+},     
 {
     text: "Jak nazywa się najsłynniejszy turniej tenisowy rozgrywany na trawie?",
     type: "closed",
@@ -212,7 +221,7 @@ const QUIZ_DATA = {
     ]
 },
         {
-    text: "Kto to powiedział 'I'm not here to taake part, I'm here to take over",
+    text: "Kto to powiedział 'I'm not here to take part, I'm here to take over",
     type: "closed",
     options: [
         { text: "Conor McGregor", isCorrect: false },
@@ -344,7 +353,58 @@ const QUIZ_DATA = {
         { text: "Wilt Chamberlain", isCorrect: true }
     ]
 },
+        {
+    text: "Która z tych historii jest fałszywa",
+    type: "closed",
+    options: [
+        { text: "mecz o superpuchar Polski za sezon 2023/24 odbył się 2 kwietnia 2025 roku", isCorrect: false },
+        { text: "grupa kiboli zaatakowała wiceprezesa Sandecji Nowej Sącz - pobili do nieprzytomności i na koniec wbili widelec w dłoń
+", isCorrect: false },
+        { text: "kibic odry Opole “wypraszał” (bijąc, opluwając, wyzywając) kibiców czarnoskórych twierdząc że na jego obiekcie nie ma miejsca dla takich osób", isCorrect: false },
+        { text: "elity PZPN i politycy prawicowi pod wpływem alkoholu wspólnie w kółku śpiewali Chryzantemy złociste", isCorrect: true }
+    ]
+},
 {
+    text: "W którym roku Polska zdobyła złoty medal olimpijski w piłce nożnej?",
+    type: "closed",
+    options: [
+        { text: "1972", isCorrect: true },
+        { text: "1976", isCorrect: false },
+        { text: "1980", isCorrect: false },
+        { text: "Polska nigdy nie zdobyła", isCorrect: false }
+    ]
+},
+        {
+    text: "Jest to najczęstsza podstawowa 11 Fc Barcelony z sezonu 2016/2017, jakich zawodników brakuję?",
+    type: "open",
+     img:  "barca1617"      
+},
+        {
+    text: "Reprezentacja Polski na pierwszy mecz euro 2016 kogo brakuję?",
+    type: "open",
+    img: "pol2016"
+},
+        {
+    text: "W którym roku Polska zdobyła złoty medal olimpijski w piłce nożnej?",
+    type: "closed",
+    options: [
+        { text: "1972", isCorrect: true },
+        { text: "1976", isCorrect: false },
+        { text: "1980", isCorrect: false },
+        { text: "Polska nigdy nie zdobyła", isCorrect: false }
+    ]
+},
+        {
+    text: "W którym roku Polska zdobyła złoty medal olimpijski w piłce nożnej?",
+    type: "closed",
+    options: [
+        { text: "1972", isCorrect: true },
+        { text: "1976", isCorrect: false },
+        { text: "1980", isCorrect: false },
+        { text: "Polska nigdy nie zdobyła", isCorrect: false }
+    ]
+},
+        {
     text: "W którym roku Polska zdobyła złoty medal olimpijski w piłce nożnej?",
     type: "closed",
     options: [
@@ -361,7 +421,7 @@ const QUIZ_DATA = {
         { text: "Tak", isCorrect: false },
         { text: "Nie", isCorrect: true }
     ]
-}
+},
 
         {
             text: "W którym roku Polska była gospodarzem Euro?",
