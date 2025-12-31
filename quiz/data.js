@@ -339,7 +339,7 @@ const QUIZ_DATA = {
         { text: "Cristiano Ronaldo", isCorrect: false },
         { text: "Diego Maradona", isCorrect: false },
         { text: "Lione Messi", isCorrect: false },
-        { text: "Zbigniew Boniek", isCorrect: true }
+        { text: "Zbigniew Boniek", isCorrect: true },
         { text: "Nikt nie dostał żółtej kartki na 3 różnych mundialach", isCorrect: false }
     ]
 },
@@ -358,8 +358,7 @@ const QUIZ_DATA = {
     type: "closed",
     options: [
         { text: "mecz o superpuchar Polski za sezon 2023/24 odbył się 2 kwietnia 2025 roku", isCorrect: false },
-        { text: "grupa kiboli zaatakowała wiceprezesa Sandecji Nowej Sącz - pobili do nieprzytomności i na koniec wbili widelec w dłoń
-", isCorrect: false },
+        { text: "grupa kiboli zaatakowała wiceprezesa Sandecji Nowej Sącz - pobili do nieprzytomności i na koniec wbili widelec w dłoń", isCorrect: false },
         { text: "kibic odry Opole “wypraszał” (bijąc, opluwając, wyzywając) kibiców czarnoskórych twierdząc że na jego obiekcie nie ma miejsca dla takich osób", isCorrect: false },
         { text: "elity PZPN i politycy prawicowi pod wpływem alkoholu wspólnie w kółku śpiewali Chryzantemy złociste", isCorrect: true }
     ]
@@ -1283,7 +1282,7 @@ const QUIZ_DATA = {
             ]
         },
         {
-            text: "Uzupełnij tekst piosenki: Budujemy nasz dom na piasku\nCena nie gra roli dziś\nKupiliśmy prawie wszystko\nAle wciąż nie mamy nic\nChce pozbierać znowu myśli\nSłyszeć bicie naszych serc\nWidzieć ile szczęścia w sobie\nKryje każda mała rzecz?\nCieszmy się z małych rzeczy, bo\nWzór na szczęście w nich zapisany jest!""",
+            text: "Uzupełnij tekst piosenki: Budujemy nasz dom na piasku\nCena nie gra roli dziś\nKupiliśmy prawie wszystko\nAle wciąż nie mamy nic\nChce pozbierać znowu myśli\nSłyszeć bicie naszych serc\nWidzieć ile szczęścia w sobie\nKryje każda mała rzecz?\nCieszmy się z małych rzeczy, bo\nWzór na szczęście w nich zapisany jest!",
             type: "open",
             img: null, // Wrzuć plik actor.jpg do folderu images!
             
