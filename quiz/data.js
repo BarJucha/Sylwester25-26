@@ -1314,12 +1314,1155 @@ const QUIZ_DATA = {
                 { text: "Melbourne", isCorrect: false },
                 { text: "Canberra", isCorrect: true }
             ]
-        }
+        },
+        {
+    text: "Wymień sąsiadów Polski.",
+    type: "open",
+},
+{
+    text: "Wymień wszystkie kontynenty.",
+    type: "open",
+},
+{
+    text: "Uporządkuj kontynenty od największego do najmniejszego.",
+    type: "open",
+},
+    {
+        text: "Które z tych miast jest stolicą Szkocji?",
+        type: "closed",
+        options: [
+            { text: "Glasgow", isCorrect: false },
+            { text: "Edynburg", isCorrect: true },
+            { text: "Hearts", isCorrect: false },
+            { text: "Cardiff", isCorrect: false }
+        ]
+    },
+    {
+        text: "Ile jest stanów w Stanach Zjednoczonych?",
+        type: "closed",
+        options: [
+            { text: "51", isCorrect: false },
+            { text: "48", isCorrect: false },
+            { text: "50", isCorrect: true },
+            { text: "52", isCorrect: false }
+        ]
+    },
+    {
+        text: "Która z tych gleb jest najżyźniejsza?",
+        type: "closed",
+        options: [
+            { text: "Mady", isCorrect: false },
+            { text: "Gleby bielicowe", isCorrect: false },
+            { text: "Gleby torfowe", isCorrect: false },
+            { text: "Czarnoziemy", isCorrect: true }
+        ]
+    },
+    {
+        text: "Która z tych gleb występuje najczęściej w Polsce?",
+        type: "closed",
+        options: [
+            { text: "Gleby brunatne", isCorrect: true },
+            { text: "Gleby bielicowe", isCorrect: false },
+            { text: "Rędziny", isCorrect: false },
+            { text: "Gleby torfowe", isCorrect: false }
+        ]
+    },
+    {
+        text: "Który z tych krajów ma największą powierzchnię?",
+        type: "closed",
+        options: [
+            { text: "Indie", isCorrect: true },
+            { text: "Argentyna", isCorrect: false },
+            { text: "Algieria", isCorrect: false },
+            { text: "Meksyk", isCorrect: false }
+        ]
+    },
+    {
+        text: "Który z tych krajów ma największą powierzchnię?",
+        type: "closed",
+        options: [
+            { text: "Gruzja", isCorrect: false },
+            { text: "Litwa", isCorrect: false },
+            { text: "Łotwa", isCorrect: false },
+            { text: "Serbia", isCorrect: true }
+        ]
+    },
+    {
+        text: "Która suma państw ma największą powierzchnię?",
+        type: "closed",
+        options: [
+            { text: "Madagaskar, Kamerun, Szwecja", isCorrect: false },
+            { text: "Iran, Ekwador, Grecja", isCorrect: true },
+            { text: "Włochy, Irak, Norwegia", isCorrect: false },
+            { text: "Chile, Turcja, Słowacja", isCorrect: false }
+        ]
+    },
+    {
+        text: "Ile jest województw w Polsce?",
+        type: "closed",
+        options: [
+            { text: "14", isCorrect: false },
+            { text: "17", isCorrect: false },
+            { text: "49", isCorrect: false },
+            { text: "16", isCorrect: true }
+        ]
+    },
+    {
+        text: "Ile jest powiatów w Polsce?",
+        type: "closed",
+        options: [
+            { text: "86", isCorrect: false },
+            { text: "114", isCorrect: false },
+            { text: "157", isCorrect: false },
+            { text: "380", isCorrect: true }
+        ]
+    },
+    {
+        text: "Które z tych miast ma największą populację?",
+        type: "closed",
+        options: [
+            { text: "Bydgoszcz", isCorrect: false },
+            { text: "Lublin", isCorrect: false },
+            { text: "Łódź", isCorrect: true },
+            { text: "Szczecin", isCorrect: false }
+        ]
+    },
+    {
+        text: "Ile jest miast w Polsce powyżej 500 tysięcy mieszkańców?",
+        type: "closed",
+        options: [
+            { text: "2", isCorrect: false },
+            { text: "3", isCorrect: false },
+            { text: "4", isCorrect: false },
+            { text: "5", isCorrect: true }
+        ]
+    },
+    {
+        text: "Które morze jest najbardziej zasolone?",
+        type: "closed",
+        options: [
+            { text: "Morze Śródziemne", isCorrect: false },
+            { text: "Morze Czerwone", isCorrect: false },
+            { text: "Morze Martwe", isCorrect: true },
+            { text: "Morze Bałtyckie", isCorrect: false }
+        ]
+    },
+{
+        "text": "Które państwo ma NAJWIĘCEJ sąsiadów lądowych?",
+        "type": "closed",
+        "options": [
+            { "text": "Rosja", "isCorrect": false },
+            { "text": "Chiny", "isCorrect": true },
+            { "text": "Brazylia", "isCorrect": false },
+            { "text": "Niemcy", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Jak nazywa się cieśnina oddzielająca Azję od Ameryki Północnej?",
+        "type": "closed",
+        "options": [
+            { "text": "Magellana", "isCorrect": false },
+            { "text": "Gibraltarska", "isCorrect": false },
+            { "text": "Beringa", "isCorrect": true },
+            { "text": "Drake’a", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Która z tych rzek jest najdłuższa?",
+        "type": "closed",
+        "options": [
+            { "text": "Parana", "isCorrect": false },
+            { "text": "Jangcy", "isCorrect": true },
+            { "text": "Kongo", "isCorrect": false },
+            { "text": "Amur", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Która forma terenu powstaje w wyniku działalności lodowca?",
+        "type": "closed",
+        "options": [
+            { "text": "Delta", "isCorrect": false },
+            { "text": "Meander", "isCorrect": false },
+            { "text": "Morena", "isCorrect": true },
+            { "text": "Wąwóz", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Który wskaźnik najlepiej opisuje poziom rozwoju społeczno-gospodarczego państwa?",
+        "type": "closed",
+        "options": [
+            { "text": "PKB", "isCorrect": false },
+            { "text": "Gęstość zaludnienia", "isCorrect": false },
+            { "text": "Przyrost naturalny", "isCorrect": false },
+            { "text": "HDI", "isCorrect": true }
+        ]
+    },
+    {
+        "text": "Który region Polski ma najwyższy udział energii z węgla brunatnego?",
+        "type": "closed",
+        "options": [
+            { "text": "Górny Śląsk", "isCorrect": false },
+            { "text": "Bełchatów", "isCorrect": true },
+            { "text": "Zagłębie Lubelskie", "isCorrect": false },
+            { "text": "Podkarpacie", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Jaka jest najczęściej używana metoda do wydobywania węgla kamiennego?",
+        "type": "closed",
+        "options": [
+            { "text": "głębinowa", "isCorrect": true },
+            { "text": "odkrywkowa", "isCorrect": false },
+            { "text": "otworowa", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Który z tych krajów ma największe złoża diamentów?",
+        "type": "closed",
+        "options": [
+            { "text": "Chiny", "isCorrect": false },
+            { "text": "Botswana", "isCorrect": true },
+            { "text": "RPA", "isCorrect": false },
+            { "text": "Brazylia", "isCorrect": false }
+        ]
+    },
+   
+    {
+        "text": "Który kraj posiada największe potwierdzone złoża ropy naftowej na świecie?",
+        "type": "closed",
+        "options": [
+            { "text": "Arabia Saudyjska", "isCorrect": false },
+            { "text": "Rosja", "isCorrect": false },
+            { "text": "Wenezuela", "isCorrect": true },
+            { "text": "USA", "isCorrect": false }
+        ]
+    },
+      {
+        "text": "W którym roku Polska przyjęła chrzest?",
+        "type": "closed",
+        "options": [
+            { "text": "966", "isCorrect": true },
+            { "text": "1000", "isCorrect": false },
+            { "text": "1025", "isCorrect": false },
+            { "text": "1410", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Kto był pierwszym królem Polski?",
+        "type": "closed",
+        "options": [
+            { "text": "Mieszko I", "isCorrect": false },
+            { "text": "Bolesław Chrobry", "isCorrect": true },
+            { "text": "Mieszko II", "isCorrect": false },
+            { "text": "Władysław Łokietek", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Kto był wodzem wojsk polskich pod Wiedniem w 1683 roku?",
+        "type": "closed",
+        "options": [
+            { "text": "Stefan Batory", "isCorrect": false },
+            { "text": "Jan Kazimierz", "isCorrect": false },
+            { "text": "Jan III Sobieski", "isCorrect": true },
+            { "text": "August II Mocny", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Jak nazywał się ostatni król Polski?",
+        "type": "closed",
+        "options": [
+            { "text": "August III Sas", "isCorrect": false },
+            { "text": "Stanisław August Poniatowski", "isCorrect": true },
+            { "text": "Stanisław Leszczyński", "isCorrect": false },
+            { "text": "Władysław IV Waza", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Kiedy została uchwalona konstytucja 3 maja?",
+        "type": "closed",
+        "options": [
+            { "text": "1787", "isCorrect": false },
+            { "text": "1791", "isCorrect": true },
+            { "text": "1793", "isCorrect": false },
+            { "text": "1794", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Co było bezpośrednią przyczyną wybuchu I wojny światowej?",
+        "type": "closed",
+        "options": [
+            { "text": "Rewolucja w Rosji", "isCorrect": false },
+            { "text": "Atak na Pearl Harbor", "isCorrect": false },
+            { "text": "Zamach w Sarajewie", "isCorrect": true },
+            { "text": "Traktat wersalski", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Jak nazywał się plan odbudowy Europy po II wojnie światowej?",
+        "type": "closed",
+        "options": [
+            { "text": "Plan Dawesa", "isCorrect": false },
+            { "text": "Plan Schumana", "isCorrect": false },
+            { "text": "Plan Marshalla", "isCorrect": true },
+            { "text": "Plan Mołotowa", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Jak nazywał się traktat kończący I wojnę światową?",
+        "type": "closed",
+        "options": [
+            { "text": "Traktat paryski", "isCorrect": false },
+            { "text": "Traktat wersalski", "isCorrect": true },
+            { "text": "Traktat wiedeński", "isCorrect": false },
+            { "text": "Traktat ryski", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Który król przeniósł stolicę Polski z Krakowa do Warszawy?",
+        "type": "closed",
+        "options": [
+            { "text": "Zygmunt Stary", "isCorrect": false },
+            { "text": "Zygmunt III Waza", "isCorrect": true },
+            { "text": "Jan III Sobieski", "isCorrect": false },
+            { "text": "Stanisław August Poniatowski", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Kiedy została ustanowiona obecna konstytucja?",
+        "type": "closed",
+        "options": [
+            { "text": "1989", "isCorrect": false },
+            { "text": "1990", "isCorrect": false },
+            { "text": "1993", "isCorrect": false },
+            { "text": "1997", "isCorrect": true }
+        ]
+    },
+    {
+        "text": "Kiedy został wprowadzony stan wojenny?",
+        "type": "closed",
+        "options": [
+            { "text": "13 grudnia 1981", "isCorrect": true },
+            { "text": "4 grudnia 1983", "isCorrect": false },
+            { "text": "22 lipca 1983", "isCorrect": false },
+            { "text": "15 grudnia 1980", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Wymień wszystkich prezydentów III RP.",
+        "type": "open"
+    },
+     {
+        "text": "Kiedy odbyła się bitwa znana jako “Cud na Wisłą” i opisz?",
+        "type": "closed",
+        "options": [
+            { "text": "1918", "isCorrect": false },
+            { "text": "1920", "isCorrect": true },
+            { "text": "1921", "isCorrect": false },
+            { "text": "1940", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Kiedy wybuchło powstanie styczniowe?",
+        "type": "closed",
+        "options": [
+            { "text": "1816", "isCorrect": false },
+            { "text": "1830", "isCorrect": false },
+            { "text": "1831", "isCorrect": false },
+            { "text": "1863", "isCorrect": true }
+        ]
+    },
+    {
+        "text": "Kiedy Adolf Hitler został kanclerzem Niemiec?",
+        "type": "closed",
+        "options": [
+            { "text": "1930", "isCorrect": false },
+            { "text": "1933", "isCorrect": true },
+            { "text": "1929", "isCorrect": false },
+            { "text": "1935", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Co zapoczątkowało Wielki Kryzys (przyczyna i kiedy)?",
+        "type": "open"
+    },
+    {
+        "text": "Kiedy Polska weszła do NATO?",
+        "type": "closed",
+        "options": [
+            { "text": "1997", "isCorrect": false },
+            { "text": "2004", "isCorrect": true },
+            { "text": "1999", "isCorrect": false },
+            { "text": "1990", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Kiedy Lech Wałęsa otrzymał nagrodę Nobla?",
+        "type": "closed",
+        "options": [
+            { "text": "1983", "isCorrect": false },
+            { "text": "1989", "isCorrect": true },
+            { "text": "1990", "isCorrect": false },
+            { "text": "1987", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Na które japońskie miasta zrzucono bomby atomowe w 1945 roku?",
+        "type": "closed",
+        "options": [
+            { "text": "Hiroshima i Osaka", "isCorrect": false },
+            { "text": "Hiroshima i Nagasaki", "isCorrect": true },
+            { "text": "Nagasaki i Nagoya", "isCorrect": false },
+            { "text": "Hiroshima i Fukuoka", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Kto napisał „Pan Tadeusz”?",
+        "type": "closed",
+        "options": [
+            { "text": "Adam Asnyk", "isCorrect": false },
+            { "text": "Adam Mickiewicz", "isCorrect": true },
+            { "text": "Juliusz Słowacki", "isCorrect": false },
+            { "text": "Henryk Sienkiewicz", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Jakie są części mowy?",
+        "type": "closed",
+        "options": [
+            { "text": "Rzeczownik, czasownik, przymiotnik", "isCorrect": true },
+            { "text": "Litera, wyraz, zdanie", "isCorrect": false },
+            { "text": "Akapit, rozdział, książka", "isCorrect": false },
+            { "text": "Zdanie, akapit, wyraz", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Jak nazywa się główny bohater „Quo Vadis”?",
+        "type": "closed",
+        "options": [
+            { "text": "Petroniusz", "isCorrect": false },
+            { "text": "Marek Winicjusz", "isCorrect": true },
+            { "text": "Ligia", "isCorrect": false },
+            { "text": "Neron", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Co to jest antonim?",
+        "type": "closed",
+        "options": [
+            { "text": "Wyraz o podobnym znaczeniu", "isCorrect": false },
+            { "text": "Wyraz o przeciwnym znaczeniu", "isCorrect": true },
+            { "text": "Wyraz obcy", "isCorrect": false },
+            { "text": "Wyraz złożony", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Kto napisał „Lalkę”?",
+        "type": "closed",
+        "options": [
+            { "text": "Bolesław Prus", "isCorrect": true },
+            { "text": "Henryk Sienkiewicz", "isCorrect": false },
+            { "text": "Stefan Żeromski", "isCorrect": false },
+            { "text": "Eliza Orzeszkowa", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Co to jest inwersja w języku polskim?",
+        "type": "closed",
+        "options": [
+            { "text": "Przerwa w wierszu", "isCorrect": false },
+            { "text": "Zmiana naturalnego szyku wyrazów w zdaniu", "isCorrect": true },
+            { "text": "Rym końcowy", "isCorrect": false },
+            { "text": "Powtórzenie słowa", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Co to jest anafora w poezji?",
+        "type": "closed",
+        "options": [
+            { "text": "Rym wewnętrzny", "isCorrect": false },
+            { "text": "Powtórzenie tego samego słowa lub frazy na początku wersów", "isCorrect": true },
+            { "text": "Powtórzenie rymów w zwrotkach", "isCorrect": false },
+            { "text": "Rodzaj strofy", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Kto napisał „Balladynę”?",
+        "type": "closed",
+        "options": [
+            { "text": "Adam Mickiewicz", "isCorrect": false },
+            { "text": "Juliusz Słowacki", "isCorrect": true },
+            { "text": "Stefan Żeromski", "isCorrect": false },
+            { "text": "Bolesław Prus", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Który termin oznacza odmianę czasownika przez osoby, liczby i czasy?",
+        "type": "closed",
+        "options": [
+            { "text": "Deklinacja", "isCorrect": false },
+            { "text": "Koniugacja", "isCorrect": true },
+            { "text": "Fleksja", "isCorrect": false },
+            { "text": "Fleksja nominalna", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "W „Zbrodni i karze” Fiodora Dostojewskiego, Raskolnikow popełnia zabójstwo:",
+        "type": "closed",
+        "options": [
+            { "text": "W akcie gniewu wobec przypadkowej osoby", "isCorrect": false },
+            { "text": "Na starej lichwiarce i jej siostrze", "isCorrect": true },
+            { "text": "Na swoim nauczycielu", "isCorrect": false },
+            { "text": "Na sędzim", "isCorrect": false }
+        ]
+    },
+        {
+        "text": "Jak nazywa się motyw literacki przewodni w „Makbecie” Williama Shakespeare’a?",
+        "type": "closed",
+        "options": [
+            { "text": "Miłość i zdrada", "isCorrect": false },
+            { "text": "Wina i ambicja prowadząca do zguby", "isCorrect": true },
+            { "text": "Wolność jednostki", "isCorrect": false },
+            { "text": "Walka dobra ze złem", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Kto w powieści symbolizuje ideę „dyktatury moralnej” i stara się wpłynąć na Barykę?",
+        "type": "closed",
+        "options": [
+            { "text": "Seweryn Baryka", "isCorrect": false },
+            { "text": "Profesor Gajowiec", "isCorrect": true },
+            { "text": "Jadwiga", "isCorrect": false },
+            { "text": "Ryszard Olczak", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Co symbolizuje „Wielki Brat” w powieści Orwella?",
+        "type": "closed",
+        "options": [
+            { "text": "Wszechobecne reklamy manipulujące społeczeństwem", "isCorrect": false },
+            { "text": "Przywódcę demokratycznego rządu", "isCorrect": false },
+            { "text": "Wszechobecną inwigilację i totalitarną władzę", "isCorrect": true },
+            { "text": "Bohatera rewolucji przeciwko Partii", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Co symbolizuje postać Oleńki Billewiczówny w powieści?",
+        "type": "closed",
+        "options": [
+            { "text": "Sprawiedliwość", "isCorrect": false },
+            { "text": "Cnotę i ideał patriotyzmu", "isCorrect": true },
+            { "text": "Chciwość i ambicję", "isCorrect": false },
+            { "text": "Bezwzględną zemstę", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Który bóg rzymski był odpowiednikiem greckiego Hermesa?",
+        "type": "closed",
+        "options": [
+            { "text": "Mars", "isCorrect": false },
+            { "text": "Merkury", "isCorrect": true },
+            { "text": "Jowisz", "isCorrect": false },
+            { "text": "Neptun", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Która bogini była uważana za patronkę mądrości, wojny sprawiedliwej i rzemiosła?",
+        "type": "closed",
+        "options": [
+            { "text": "Artemida", "isCorrect": false },
+            { "text": "Afrodyta", "isCorrect": false },
+            { "text": "Hera", "isCorrect": false },
+            { "text": "Atena", "isCorrect": true }
+        ]
+    },
+    {
+        "text": "Która z greckich muz była patronką historii i poezji epickiej?",
+        "type": "closed",
+        "options": [
+            { "text": "Kaliope", "isCorrect": true },
+            { "text": "Klio", "isCorrect": false },
+            { "text": "Urania", "isCorrect": false },
+            { "text": "Talia", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Jak nazywa się jednostka siły w układzie SI?",
+        "type": "closed",
+        "options": [
+            { "text": "Newton", "isCorrect": true },
+            { "text": "Dżul", "isCorrect": false },
+            { "text": "Pascal", "isCorrect": false },
+            { "text": "Watt", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Co mierzymy w jednostkach Amperów?",
+        "type": "closed",
+        "options": [
+            { "text": "Napięcie", "isCorrect": false },
+            { "text": "Natężenie prądu", "isCorrect": true },
+            { "text": "Opór elektryczny", "isCorrect": false },
+            { "text": "Moc", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Jak nazywa się proces przechodzenia cieczy w gaz?",
+        "type": "closed",
+        "options": [
+            { "text": "Krzepnięcie", "isCorrect": false },
+            { "text": "Skraplanie", "isCorrect": false },
+            { "text": "Parowanie", "isCorrect": true },
+            { "text": "Sublimacja", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Co to jest atom?",
+        "type": "closed",
+        "options": [
+            { "text": "Wiązka elektronów", "isCorrect": false },
+            { "text": "Najmniejsza cząstka pierwiastka chemicznego", "isCorrect": true },
+            { "text": "Związek chemiczny", "isCorrect": false },
+            { "text": "Proton", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Który związek chemiczny jest zasadą mocną?",
+        "type": "closed",
+        "options": [
+            { "text": "HCl", "isCorrect": false },
+            { "text": "NaOH", "isCorrect": true },
+            { "text": "CH₃COOH", "isCorrect": false },
+            { "text": "H₂SO₄", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Jak nazywa się wykres zależności ciśnienia gazu od jego objętości w stałej temperaturze?",
+        "type": "closed",
+        "options": [
+            { "text": "Wykres izotermiczny", "isCorrect": true },
+            { "text": "Wykres izobaryczny", "isCorrect": false },
+            { "text": "Wykres izochoryczny", "isCorrect": false },
+            { "text": "Wykres izentalpiczny", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Jaka jest wartość 1 mola wodoru w gramach?",
+        "type": "closed",
+        "options": [
+            { "text": "0,5 g", "isCorrect": false },
+            { "text": "1 g", "isCorrect": true },
+            { "text": "2 g", "isCorrect": false },
+            { "text": "16 g", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Jak nazywa się reakcja, w której atomy wymieniają się miejscami w cząsteczce?",
+        "type": "closed",
+        "options": [
+            { "text": "Redukcja", "isCorrect": false },
+            { "text": "Oksydacja", "isCorrect": false },
+            { "text": "Reakcja substytucji", "isCorrect": true },
+            { "text": "Reakcja addycji", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "II prawo Newtona mówi, że siła działająca na ciało jest równa:",
+        "type": "closed",
+        "options": [
+            { "text": "masie ciała pomnożonej przez jego prędkość", "isCorrect": false },
+            { "text": "masie ciała pomnożonej przez jego przyspieszenie", "isCorrect": true },
+            { "text": "zmianie energii kinetycznej ciała", "isCorrect": false },
+            { "text": "sile tarcia działającej na ciało", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Które zjawisko fizyczne opisuje wzrost prędkości cząsteczek gazu przy podgrzewaniu?",
+        "type": "closed",
+        "options": [
+            { "text": "Dyfuzję", "isCorrect": false },
+            { "text": "Ruch cieplny cząsteczek", "isCorrect": true },
+            { "text": "Prawo Archimedesa", "isCorrect": false },
+            { "text": "Zjawisko fotoelektryczne", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Prawo Hooke’a opisuje zależność między:",
+        "type": "closed",
+        "options": [
+            { "text": "siłą a masą ciała", "isCorrect": false },
+            { "text": "napięciem a oporem", "isCorrect": false },
+            { "text": "odkształceniem sprężyny a siłą działającą na sprężynę", "isCorrect": true },
+            { "text": "temperaturą a ciśnieniem", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Ciało pozostaje w spoczynku, dopóki nie zadziała na nie siła. To jest:",
+        "type": "closed",
+        "options": [
+            { "text": "II prawo Newtona", "isCorrect": false },
+            { "text": "I prawo Newtona", "isCorrect": true },
+            { "text": "III prawo Newtona", "isCorrect": false },
+            { "text": "Prawo Archimedesa", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "III prawo Newtona stwierdza, że:",
+        "type": "closed",
+        "options": [
+            { "text": "każda akcja powoduje równą i przeciwną reakcję", "isCorrect": true },
+            { "text": "siła wypadkowa jest proporcjonalna do przyspieszenia", "isCorrect": false },
+            { "text": "ciało pozostaje w spoczynku, jeśli nie działa siła", "isCorrect": false },
+            { "text": "prędkość ciała jest stała w próżni", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Podaj wzór na prędkość.",
+        "type": "open"
+    },
+    {
+        "text": "Jaki jest wzór na sól kuchenną?",
+        "type": "closed",
+        "options": [
+            { "text": "KCl", "isCorrect": false },
+            { "text": "NaCl", "isCorrect": true },
+            { "text": "MgCl₂", "isCorrect": false },
+            { "text": "CaCl₂", "isCorrect": false }
+        ]
+    },
+        
     ],
     "rozne": [
         {
             text: "Wymień 3 składniki pizzy Margherita.",
             type: "open"
-        }
+        },
+        {
+        "text": "Jak długo trwa lot światła z Słońca do Ziemi?",
+        "type": "closed",
+        "options": [
+            { "text": "8 sekund", "isCorrect": false },
+            { "text": "8 minut", "isCorrect": true },
+            { "text": "1 godzina", "isCorrect": false },
+            { "text": "24 godziny", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Ile procent powierzchni Ziemi zajmuje woda?",
+        "type": "closed",
+        "options": [
+            { "text": "52%", "isCorrect": false },
+            { "text": "60%", "isCorrect": false },
+            { "text": "65%", "isCorrect": false },
+            { "text": "71%", "isCorrect": true }
+        ]
+    },
+    {
+        "text": "Który kraj wynalazł papier?",
+        "type": "closed",
+        "options": [
+            { "text": "Egipt", "isCorrect": false },
+            { "text": "Chiny", "isCorrect": true },
+            { "text": "Grecja", "isCorrect": false },
+            { "text": "Indie", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Które zwierzę potrafi spać stojąc?",
+        "type": "closed",
+        "options": [
+            { "text": "Kot", "isCorrect": false },
+            { "text": "Pies", "isCorrect": false },
+            { "text": "Koń", "isCorrect": true },
+            { "text": "Królik", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Który pierwiastek chemiczny odpowiada za zielony kolor roślin w procesie fotosyntezy?",
+        "type": "closed",
+        "options": [
+            { "text": "Żelazo", "isCorrect": false },
+            { "text": "Magnez", "isCorrect": true },
+            { "text": "Wapń", "isCorrect": false },
+            { "text": "Potas", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Które zwierzę potrafi przetrwać bez jedzenia nawet kilka lat?",
+        "type": "closed",
+        "options": [
+            { "text": "bóbr", "isCorrect": false },
+            { "text": "Słoń", "isCorrect": false },
+            { "text": "Tardigrad", "isCorrect": true },
+            { "text": "Kot", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Jaki jest najstarszy znany zapis muzyczny na świecie?",
+        "type": "closed",
+        "options": [
+            { "text": "Utwór Bacha", "isCorrect": false },
+            { "text": "Hymn do Nikkala", "isCorrect": true },
+            { "text": "„Oda do radości”", "isCorrect": false },
+            { "text": "Pieśni Homera", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Która planeta w Układzie Słonecznym może mieć deszcz ze szkła?",
+        "type": "closed",
+        "options": [
+            { "text": "Wenus", "isCorrect": false },
+            { "text": "Neptun", "isCorrect": true },
+            { "text": "Mars", "isCorrect": false },
+            { "text": "Merkury", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Czy istnieje zwierzę bez mózgu?",
+        "type": "open"
+    },
+    {
+        "text": "Jaka jest największa zwierzęca ryba na świecie?",
+        "type": "closed",
+        "options": [
+            { "text": "Rekin biały", "isCorrect": false },
+            { "text": "Marlin", "isCorrect": false },
+            { "text": "Rekin wielorybi", "isCorrect": true },
+            { "text": "Płaszczka", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Jakie zwierzę żyje najdłużej?",
+        "type": "closed",
+        "options": [
+            { "text": "Żółw Aldabra", "isCorrect": false },
+            { "text": "Wieloryb grenlandzki", "isCorrect": true },
+            { "text": "Rekin", "isCorrect": false },
+            { "text": "Słoń afrykański", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Najdłuższy czas utrzymania oddechu pod wodą przez człowieka wynosi:",
+        "type": "closed",
+        "options": [
+            { "text": "16 min 49 s", "isCorrect": false },
+            { "text": "21 min 8 s", "isCorrect": false },
+            { "text": "24 min 37 s", "isCorrect": true },
+            { "text": "35 min 4 s", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Największa liczba hot-dogów zjedzonych w 10 minut przez jedną osobę to:",
+        "type": "closed",
+        "options": [
+            { "text": "47", "isCorrect": false },
+            { "text": "61", "isCorrect": false },
+            { "text": "76", "isCorrect": true },
+            { "text": "89", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Najdłuższe skakanie przez człowieka na jednej nodze wyniosło:",
+        "type": "closed",
+        "options": [
+            { "text": "1,8 km", "isCorrect": false },
+            { "text": "34,3 km", "isCorrect": false },
+            { "text": "17,7 km", "isCorrect": true },
+            { "text": "46,7 km", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Najdłuższe żucie gumy przez jedną osobę trwało:",
+        "type": "closed",
+        "options": [
+            { "text": "9 lat", "isCorrect": true },
+            { "text": "8 mies", "isCorrect": false },
+            { "text": "4 lata 6 mies", "isCorrect": false },
+            { "text": "17 mies", "isCorrect": false }
+        ]
+    },
+        {
+        "text": "Najdłuższa pizza świata miała:",
+        "type": "closed",
+        "options": [
+            { "text": "680 m", "isCorrect": false },
+            { "text": "3,71 km", "isCorrect": false },
+            { "text": "1,58 km", "isCorrect": false },
+            { "text": "1,93 km", "isCorrect": true }
+        ]
+    },
+    {
+        "text": "Najwięcej spinaczy przyklejonych do twarzy w jednej minucie:",
+        "type": "closed",
+        "options": [
+            { "text": "53", "isCorrect": true },
+            { "text": "86", "isCorrect": false },
+            { "text": "109", "isCorrect": false },
+            { "text": "170", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Kto powiedział „Człowiek jest miarą wszechrzeczy”?",
+        "type": "closed",
+        "options": [
+            { "text": "Platon", "isCorrect": false },
+            { "text": "Protagoras", "isCorrect": true },
+            { "text": "Arystoteles", "isCorrect": false },
+            { "text": "Sokrates", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Czym zajmuje się filozofia etyki?",
+        "type": "closed",
+        "options": [
+            { "text": "Badaniem zachowań zwierząt", "isCorrect": false },
+            { "text": "Badaniem moralności i zasad postępowania", "isCorrect": true },
+            { "text": "Analizą neuronów w mózgu", "isCorrect": false },
+            { "text": "Badaniem historii filozofii", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Która koncepcja w psychologii opisuje tzw. „poczucie własnej skuteczności”?",
+        "type": "closed",
+        "options": [
+            { "text": "Teoria potrzeb Maslowa", "isCorrect": false },
+            { "text": "Teoria Bandury", "isCorrect": true },
+            { "text": "Psychoanaliza Freuda", "isCorrect": false },
+            { "text": "Behawioryzm Skinnera", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Filozofia egzystencjalna koncentruje się przede wszystkim na:",
+        "type": "closed",
+        "options": [
+            { "text": "Naturze wszechświata", "isCorrect": false },
+            { "text": "Matematycznych prawach", "isCorrect": false },
+            { "text": "Sensie życia, wolności i odpowiedzialności jednostki", "isCorrect": true },
+            { "text": "Zasobach naturalnych", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Czym zajmuje się psychologia poznawcza?",
+        "type": "closed",
+        "options": [
+            { "text": "Badaniem snów", "isCorrect": false },
+            { "text": "Badaniem procesów myślowych, uwagi i pamięci", "isCorrect": true },
+            { "text": "Badaniem zachowań zwierząt", "isCorrect": false },
+            { "text": "Analizą osobowości", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Co w psychologii oznacza termin „dysonans poznawczy”?",
+        "type": "closed",
+        "options": [
+            { "text": "Stan głębokiego snu", "isCorrect": false },
+            { "text": "Konflikt między przekonaniami a zachowaniami", "isCorrect": true },
+            { "text": "Brak pamięci krótkotrwałej", "isCorrect": false },
+            { "text": "Nadmierne pobudzenie emocjonalne", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Który filozof twierdził, że „człowiek jest z natury istotą polityczną”?",
+        "type": "closed",
+        "options": [
+            { "text": "Sokrates", "isCorrect": false },
+            { "text": "Platon", "isCorrect": false },
+            { "text": "Arystoteles", "isCorrect": true },
+            { "text": "Epikur", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Eksperyment Milgrama dotyczył:",
+        "type": "closed",
+        "options": [
+            { "text": "Rozwoju dziecka", "isCorrect": false },
+            { "text": "Zjawiska placebo", "isCorrect": false },
+            { "text": "Pamięci i uwagi", "isCorrect": false },
+            { "text": "Posłuszeństwa wobec autorytetu", "isCorrect": true }
+        ]
+    },
+    {
+        "text": "Efekt Zeigarnik mówi o tym, że:",
+        "type": "closed",
+        "options": [
+            { "text": "Pamiętamy najlepiej zdarzenia przyjemne", "isCorrect": false },
+            { "text": "Lepiej pamiętamy zadania niedokończone niż zakończone", "isCorrect": true },
+            { "text": "Ludzie reagują szybciej na bodźce negatywne", "isCorrect": false },
+            { "text": "Pamięć krótkotrwała jest silniejsza niż długotrwała", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Kto jest autorem pojęcia „nadczłowiek”?",
+        "type": "closed",
+        "options": [
+            { "text": "Friedrich Nietzsche", "isCorrect": true },
+            { "text": "Kant", "isCorrect": false },
+            { "text": "Hegel", "isCorrect": false },
+            { "text": "Schopenhauer", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Który nurt filozoficzny podkreśla znaczenie doświadczenia zmysłowego jako źródła wiedzy?",
+        "type": "closed",
+        "options": [
+            { "text": "Stoicyzm", "isCorrect": false },
+            { "text": "Empiryzm", "isCorrect": true },
+            { "text": "Racjonalizm", "isCorrect": false },
+            { "text": "Egzystencjalizm", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Jakie owoce używa się do przygotowania tradycyjnego francuskiego tarty Tatin?",
+        "type": "closed",
+        "options": [
+            { "text": "Truskawki", "isCorrect": false },
+            { "text": "Jabłka", "isCorrect": true },
+            { "text": "Gruszki", "isCorrect": false },
+            { "text": "Maliny", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Co jest podstawowym składnikiem hummusu?",
+        "type": "closed",
+        "options": [
+            { "text": "Soczewica", "isCorrect": false },
+            { "text": "Fasola", "isCorrect": false },
+            { "text": "Ciecierzyca", "isCorrect": true },
+            { "text": "Kukurydza", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Które z poniższych przypraw jest najbardziej charakterystyczne dla kuchni indyjskiej?",
+        "type": "closed",
+        "options": [
+            { "text": "Oregano", "isCorrect": false },
+            { "text": "Bazylia", "isCorrect": false },
+            { "text": "Kurkuma", "isCorrect": true },
+            { "text": "Tymianek", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Z jakiego kraju pochodzi sushi?",
+        "type": "closed",
+        "options": [
+            { "text": "Chiny", "isCorrect": false },
+            { "text": "Japonia", "isCorrect": true },
+            { "text": "Korea", "isCorrect": false },
+            { "text": "Tajlandia", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Który napój pochodzi z Etiopii i jest tradycyjnie spożywany podczas ceremonii?",
+        "type": "closed",
+        "options": [
+            { "text": "Herbata", "isCorrect": false },
+            { "text": "Piwo", "isCorrect": false },
+            { "text": "Kawa", "isCorrect": true },
+            { "text": "Sok z granatu", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Jakie mięso używa się do przygotowania tradycyjnego węgierskiego gulaszu?",
+        "type": "closed",
+        "options": [
+            { "text": "Wieprzowina", "isCorrect": false },
+            { "text": "Kurczak", "isCorrect": false },
+            { "text": "Wołowina", "isCorrect": true },
+            { "text": "Jagnięcina", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Z którego kraju pochodzi tradycyjne danie „paella”?",
+        "type": "closed",
+        "options": [
+            { "text": "Portugalia", "isCorrect": false },
+            { "text": "Hiszpania", "isCorrect": true },
+            { "text": "Włochy", "isCorrect": false },
+            { "text": "Grecja", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Co jest głównym składnikiem francuskiego ratatouille?",
+        "type": "closed",
+        "options": [
+            { "text": "Ziemniaki", "isCorrect": false },
+            { "text": "Bakłażan", "isCorrect": true },
+            { "text": "Ryż", "isCorrect": false },
+            { "text": "Kukurydza", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Jakie przyprawy są głównymi składnikami włoskiej mieszanki „herbes de Provence”?",
+        "type": "closed",
+        "options": [
+            { "text": "Papryka i kurkuma", "isCorrect": false },
+            { "text": "Tymianek, rozmaryn, oregano", "isCorrect": true },
+            { "text": "Kolendra i cynamon", "isCorrect": false },
+            { "text": "Koper i bazylia", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Kto był pierwszym przewodniczącym Związku Radzieckiego?",
+        "type": "closed",
+        "options": [
+            { "text": "Leonid Breżniew", "isCorrect": false },
+            { "text": "Włodzimierz Lenin", "isCorrect": true },
+            { "text": "Józef Stalin", "isCorrect": false },
+            { "text": "Nikita Chruszczow", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "W którym roku Barack Obama został wybrany na prezydenta USA po raz pierwszy?",
+        "type": "closed",
+        "options": [
+            { "text": "2006", "isCorrect": false },
+            { "text": "2008", "isCorrect": true },
+            { "text": "2010", "isCorrect": false },
+            { "text": "2012", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Które państwo jako pierwsze zalegalizowało małżeństwa osób tej samej płci?",
+        "type": "closed",
+        "options": [
+            { "text": "Kanada", "isCorrect": false },
+            { "text": "Holandia", "isCorrect": true },
+            { "text": "Szwecja", "isCorrect": false },
+            { "text": "Belgia", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Który afrykański kraj był pierwszym niepodległym państwem po dekolonizacji w XX wieku?",
+        "type": "closed",
+        "options": [
+            { "text": "Nigeria", "isCorrect": false },
+            { "text": "Liberia", "isCorrect": true },
+            { "text": "Ghana", "isCorrect": false },
+            { "text": "Kenia", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Kogo decyzje zabiły najwięcej ludzi?",
+        "type": "open"
+    },
+    {
+        "text": "Kto został wybrany kanclerzem Niemiec po Angeli Merkel w 2021 roku?",
+        "type": "closed",
+        "options": [
+            { "text": "Gerhard Schröder", "isCorrect": false },
+            { "text": "Olaf Scholz", "isCorrect": true },
+            { "text": "Frank-Walter Steinmeier", "isCorrect": false },
+            { "text": "Markus Söder", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Kiedy Polska ratyfikowała Traktat Lizboński?",
+        "type": "closed",
+        "options": [
+            { "text": "2005", "isCorrect": false },
+            { "text": "2007", "isCorrect": true },
+            { "text": "2009", "isCorrect": false },
+            { "text": "2010", "isCorrect": false }
+        ]
+    }
     ]
 };
