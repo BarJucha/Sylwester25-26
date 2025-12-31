@@ -1282,21 +1282,16 @@ const QUIZ_DATA = {
             ]
         },
         {
-            text: "Uzupełnij tekst piosenki: Budujemy nasz dom na piasku\nCena nie gra roli dziś\nKupiliśmy prawie wszystko\nAle wciąż nie mamy nic\nChce pozbierać znowu myśli\nSłyszeć bicie naszych serc\nWidzieć ile szczęścia w sobie\nKryje każda mała rzecz?\nCieszmy się z małych rzeczy, bo\nWzór na szczęście w nich zapisany jest!",
+            text: "Uzupełnij tekst piosenki: Budujemy nasz dom na piasku\nCena ...\nKupiliśmy prawie wszystko\nAle ....\nChce pozbierać znowu myśli\n.... naszych serc\nWidzieć ile szczęścia w sobie\nKryje każda mała rzecz?\nCieszmy się z małych rzeczy, bo\nWzór ......",
             type: "open",
             img: null, // Wrzuć plik actor.jpg do folderu images!
             
         },
         {
-            text: "Jak nazywa sie wioska z której pochodzi Naruto?",
-            type: "closed",
-            img: null, // Wrzuć plik actor.jpg do folderu images!
-            options: [
-                { text: "Sunagakure", isCorrect: false },
-                { text: "Kirigakure", isCorrect: false },
-                { text: "Konohagakure", isCorrect: true },
-                { text: "Iwagakure", isCorrect: false }
-            ]
+            text: "Co/kto to jest?",
+            type: "open",
+            img: "beatles.png", // Wrzuć plik actor.jpg do folderu images!
+            
         },
         {
             text: "Jak nazywa sie wioska z której pochodzi Naruto?",
