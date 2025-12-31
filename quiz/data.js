@@ -224,9 +224,9 @@ const QUIZ_DATA = {
     text: "Kto to powiedział 'I'm not here to take part, I'm here to take over",
     type: "closed",
     options: [
-        { text: "Conor McGregor", isCorrect: false },
+        { text: "Conor McGregor", isCorrect: true },
         { text: "Michael Jordan", isCorrect: false },
-        { text: "Zlatan Ibrahimović", isCorrect: true },
+        { text: "Zlatan Ibrahimović", isCorrect: false },
         { text: "Roger Federer", isCorrect: false }
     ]
 },
